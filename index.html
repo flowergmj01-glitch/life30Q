@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日語生活口說問答 30 題（B1 / B2 參考答案）</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .level-badge {
+            display: inline-block;
+            padding: 0.25rem 0.65rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: white;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+        /* 對應 B1 (中階流利 - 綠色) 與 B2 (N2程度 - 橘黃色) */
+        .badge-b1 { background-color: #34d399; } /* Emerald Green */
+        .badge-b2 { background-color: #f59e0b; } /* Amber Orange */
+
+        /* 列印與匯出 PDF 最佳化樣式 */
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .shadow-lg, .shadow-md {
+                box-shadow: none !important;
+            }
+            .question-card {
+                break-inside: avoid;
+                page-break-inside: avoid;
+                border: 1px solid #e5e7eb !important;
+                margin-bottom: 1.25rem !important;
+            }
+            .max-w-4xl {
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-6 md:p-10">
+        <!-- 頂部列印按鈕（列印時自動隱藏） -->
+        <div class="flex justify-end mb-4 no-print">
+            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg shadow transition flex items-center gap-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                </svg>
+                列印 / 另存為 PDF
+            </button>
+        </div>
+
+        <h1 class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-6 border-b-2 border-indigo-500 pb-4">
+            日語生活口說問答 30 題（B1 / B2 參考答案）
+        </h1>
+
+        <!-- 測驗說明與規則區塊 -->
+        <section class="mb-8">
+            <div class="bg-indigo-50 p-5 rounded-xl border border-indigo-200">
+                <p class="text-gray-800 font-medium mb-3 leading-relaxed">
+                    音声による短い質問に答えます。テキストはありません。音声をよく聞きましょう。問題が全部わからなかったら、わかった部分について何か話しましょう。
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm font-bold text-indigo-800 bg-white p-3 rounded-lg border border-indigo-100">
+                    <div class="flex items-center justify-center sm:justify-start">
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded mr-2">問題数</span> 10問（本題庫共收錄30題）
+                    </div>
+                    <div class="flex items-center justify-center sm:justify-start">
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded mr-2">準備時間</span> なし（無準備時間）
+                    </div>
+                    <div class="flex items-center justify-center sm:justify-start">
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded mr-2">回答時間</span> 各20秒
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 20秒短答題核心策略 -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-indigo-700 mb-3">20秒無準備短問答・高分策略</h2>
+            <div class="bg-gray-50 p-5 rounded-xl border border-gray-200 text-sm md:text-base">
+                <p class="mb-3 text-gray-700">20秒大約可以說 <strong>3～4 句話（約 80～120 個日文字）</strong>。因為沒有準備時間，聽到問題的瞬間請套用「<strong>結論 ➔ 理由 ➔ 具體補充</strong>」三段公式：</p>
+                <ol class="list-decimal list-inside space-y-1.5 text-gray-700 ml-2">
+                    <li><strong>結論先行 (5秒)：</strong> 直接回答問題（はい・いいえ、是什麼、喜歡什麼）。</li>
+                    <li><strong>簡短理由 (8秒)：</strong> 加上「～からです」「なぜかと言うと～」。</li>
+                    <li><strong>生活細節或頻率 (7秒)：</strong> 補充「最近～」「週に一回ぐらい～」「例えば～」，自然填滿20秒。</li>
+                </ol>
+                <div class="mt-4 pt-3 border-t border-gray-200 flex flex-wrap gap-4 text-xs md:text-sm">
+                    <div class="flex items-center"><span class="level-badge badge-b1">B1 程度</span> 語氣自然流暢，能清楚表達個人日常經驗與理由。</div>
+                    <div class="flex items-center"><span class="level-badge badge-b2">B2 程度</span> 詞彙精準豐富，善用慣用句與較具邏輯的複句結構。</div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 border-gray-300">
+
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">日常生活口說問答 30 題（各題 20 秒）</h2>
+
+        <!-- ==================== 主題一：興趣與休閒 (1-6) ==================== -->
+        <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">【主題一】興趣與休閒活動（第 1～6 題）</h3>
+
+        <!-- Q1 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">1. あなたの趣味は何ですか。それをどのぐらい続けていますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：你的興趣是什麼？持續多久了？（回答興趣＋時間長度＋簡單魅力）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私の趣味は写真を撮ることです。大学時代から始めたので、もう5年ぐらい続けています。旅行に行った時や日常のきれいな景色をカメラで残すのがとても楽しいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私の趣味はカフェ巡りで、ここ3年ほど続けています。週末になると評判の店を探して足を運び、美味しいコーヒーを味わいながら読書をする時間が、何よりの気分転換になっています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">2. 休みの日は普段どんなことをして過ごしていますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：放假時平常都做些什麼度過？（回答一般假日行程＋心情感受）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 平日は仕事で忙しいので、休みの日は家でゆっくり過ごすことが多いです。午前中は遅くまで寝て、午後はネットフリックスで映画を見たり、部屋の掃除をしたりしています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 休日はできるだけ外に出てリフレッシュするようにしています。午前中にジムで汗を流したあと、友達とランチに行ったりショッピングを楽しんだりして、心身ともに疲れを癒やしています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">3. ストレスがたまった時、どうやって解消しますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：壓力累積時，你都如何紓壓？（提出具體紓壓方式＋效果）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> ストレスがたまった時は、好きなものをたくさん食べるようにしています。特に甘いケーキや美味しい焼肉を食べると、嫌なことを忘れてまた頑張ろうという気持ちになります。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私のストレス解消法は、好きな音楽を聴きながら夜にジョギングをすることです。体を動かして無心になることで頭の中が整理され、走った後は不思議と気持ちが前向きになります。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">4. 最近、何か新しく始めたことはありますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：最近有開始什麼新事物嗎？（回答新嘗試＋契機或目前狀況）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、先月から自炊を始めました。外食ばかりだとお金がかかるし、健康にもあまり良くないと思ったからです。まだ簡単な料理しか作れませんが、少しずつ上手になってきました。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 最近、健康維持のためにヨガを始めました。デスクワークが中心で肩こりに悩んでいたのですが、週に二回通うようになってから体の柔軟性が増し、睡眠の質も良くなった気がします。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">5. どんな音楽や映画が好きですか。最近見たものを教えてください。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：喜歡什麼樣的音樂或電影？請分享最近看過的。（類型＋具體作品或感想）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私は日本のアニメ映画が好きです。先週、友達と一緒に映画館で最新のアニメを見ました。映像がとてもきれいで、最後のシーンでは感動して少し泣いてしまいました。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 普段はミステリーやサスペンス映画をよく見ます。先週末に見た作品は、最後まで犯人が分からない巧妙なストーリー展開で、見終わった後も余韻が残るほど面白かったです。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="question-card mb-8 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">6. 運動はよくしますか。どんなスポーツが好きですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：常運動嗎？喜歡什麼運動？（回答頻率＋喜歡的運動項目）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、週に二回ぐらい運動しています。特にバドミントンが好きで、よく会社の同僚と一緒に体育館でやっています。ルールが簡単で誰でも楽しめるので、とてもいい運動になります。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 激しい運動はあまり得意ではありませんが、健康のために毎晩30分ほどウォーキングをしています。スポーツでは水泳が好きで、夏になるとよく市民プールへ泳ぎに行きます。
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 主題二：飲食與烹飪 (7-12) ==================== -->
+        <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">【主題二】飲食與烹飪習慣（第 7～12 題）</h3>
+
+        <!-- Q7 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">7. 朝ごはんは毎日食べますか。いつも何を食べていますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：每天都吃早餐嗎？平常吃什麼？（回答習慣＋常吃的食物＋原因）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、毎日必ず食べています。朝は時間がないので、いつもトーストと目玉焼き、それにコーヒーを飲むことが多いです。朝ごはんを食べないと、午前中に力が出ないからです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 平日は朝ギリギリまで寝ていることが多いので、通勤途中のコンビニでおにぎりや豆乳を買って済ませることがほとんどです。その代わり、週末はゆっくりとパンケーキなどを作って楽しんでいます。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q8 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">8. 自分で料理を作りますか。得意な料理は何ですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：會自己做菜嗎？拿手料理是什麼？（回答頻率＋拿手菜＋簡單說明）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、週末によく作ります。一番得意な料理はカレーライスです。野菜とお肉をたくさん入れて作るので、栄養があるし、次の日も食べられるのでとても便利です。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> ええ、節約と健康管理のために週に三、四回は自炊をしています。得意料理はパスタで、冷蔵庫にある余り物の野菜やベーコンを使って、ペペロンチーノなどを手早く作ることができます。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">9. 台湾の食べ物で、外国人に一番おすすめしたいものは何ですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：台灣的美食中，最想推薦給外國人的是什麼？（食物名稱＋推薦理由）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私は小籠包を一番おすすめしたいです。皮が薄くて、中から熱いスープがたくさん出てくるのが最高に美味しいからです。日本人の友達が台湾に来た時も、いつも一緒に食べに行きます。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> やはり「魯肉飯（ルーローハン）」をおすすめしたいですね。甘辛く煮込んだ豚肉がご飯と相性抜群で、値段も手頃なため、台湾の庶民の味を手軽に堪能できる代表的なグルメだと思います。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q10 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">10. コーヒーとお茶と、どちらをよく飲みますか。またその理由は。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：咖啡和茶，比較常喝哪一個？理由是什麼？（明確二選一＋飲用時機與理由）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私はコーヒーの方をよく飲みます。毎朝、仕事の前にブラックコーヒーを飲むと、目が覚めて集中できるからです。コーヒーの香りもとても好きで、リラックスできます。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私はお茶をよく飲みます。台湾には美味しいウーロン茶や緑茶が豊富にありますし、食事との相性も良いからです。カフェインを控えたい夜でも、温かいお茶なら安心して飲めます。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q11 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">11. 外食する時、どんな基準でお店を選びますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：外食的時候，你都用什麼標準選餐廳？（提出1～2個挑選標準＋具體做法）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私はインターネットの口コミや評価を見て選びます。星の数が高いお店なら、失敗することが少ないからです。あとは、家や駅から近くて行きやすいかどうかも大切にしています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 一番重視するのは、料理の味と価格のバランス、いわゆるコストパフォーマンスです。また、友達とゆっくり会話を楽しみたい時は、店内の雰囲気が落ち着いていて清潔感があるかどうかもチェックします。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q12 -->
+        <div class="question-card mb-8 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">12. 最近、健康のために気をつけていることはありますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：最近為了健康有什麼注意的事情嗎？（飲食、作息或習慣的調整）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 最近は甘い飲み物を減らして、水をたくさん飲むように気をつけています。以前は毎日タピオカミルクティーを飲んでいましたが、砂糖が多すぎるので、今は週に一回だけにしています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 野菜不足にならないよう、意識してサラダや温野菜を摂るようにしています。また、夜遅い時間の食事は胃に負担がかかるため、できるだけ夜8時までに夕食を済ませるよう心がけています。
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 主題三：旅遊與外出 (13-18) ==================== -->
+        <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">【主題三】旅遊與外出體驗（第 13～18 題）</h3>
+
+        <!-- Q13 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">13. 今まで行った旅行の中で、一番思い出に残っている場所はどこですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：至今去過的旅行中，印象最深刻的地方是哪裡？（地點＋印象深刻的原因）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 一番思い出に残っているのは日本の京都です。古いお寺や神社がたくさんあって、景色がとてもきれいでした。着物を着て町を歩いたのが、本当にいい経験になりました。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 去年訪れた北海道が一番印象に残っています。どこまでも続く広大な自然や、新鮮な海鮮料理に感動しました。現地の人々も非常に親切で、都会の喧騒を忘れて心からリフレッシュできました。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q14 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">14. 旅行に行く時、計画をしっかり立てるタイプですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：去旅行時，你是會仔細擬定計畫的人嗎？（表明類型＋理由或實際做法）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、私はしっかり計画を立てるタイプです。電車の時間や行きたいレストランを事前に調べておかないと不安になります。計画通りに旅行が進むと、とても気持ちがいいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私は大まかな予定だけ決めて、あとはその場の気分で行動するタイプです。細かくスケジュールを詰め込みすぎると疲れてしまいますし、偶然見つけた店に入るようなハプニングも旅の醍醐味だと思うからです。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q15 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">15. 一人旅と、友達や家族と行く旅行と、どちらが好きですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：一個人旅行，和跟朋友家人去旅行，比較喜歡哪一種？（明確選擇＋優點）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私は友達と行く旅行の方が好きです。美味しいものを食べた時やきれいな景色を見た時に、「すごいね」とその場で感動を共有できるからです。一緒に写真を撮るのも楽しいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私は一人旅の方が気楽で好きです。誰にも気を使わず、自分の興味がある場所だけに時間を費やせるからです。また、一人で行動していると現地の人に話しかけられる機会が増えるのも魅力です。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q16 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">16. 四季の中で、どの季節が一番好きですか。その理由も教えてください。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：四季之中最喜歡哪個季節？請說明理由。（季節＋氣候或活動理由）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私は秋が一番好きです。暑くも寒くもなく、とても過ごしやすい天気だからです。それに、秋は美味しい食べ物がたくさんありますし、紅葉を見に行くのも楽しいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私は春が一番好きです。厳しい寒さが和らぎ、新しい生命が芽吹くような明るい雰囲気に包まれるからです。桜が咲く季節になると、気持ちがウキウキして外に出かけたくなります。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q17 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">17. 雨の日はどんなふうに過ごすのが好きですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：下雨天你喜歡怎麼度過？（雨天的活動＋心境）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 雨の日は外に出るのが面倒なので、家でゆっくり本を読んだり、音楽を聴いたりするのが好きです。雨の音を聞きながら温かいお茶を飲むと、とても落ち着いた気分になります。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 雨の日はあえて大型のショッピングモールや美術館へ出かけることが多いです。天候に左右されず快適に過ごせますし、普段よりも人が少なくてゆっくり見て回れるというメリットがあるからです。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q18 -->
+        <div class="question-card mb-8 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">18. あなたの住んでいる町はどんなところですか。気に入っていますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：你居住的城鎮是什麼樣的地方？喜歡嗎？（環境特徵＋評價）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私が住んでいる町は、駅の近くにスーパーやコンビニがたくさんあって、生活にとても便利です。夜も静かで安全なので、今の町がとても気に入っています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 都会へのアクセスが良い一方で、少し歩くと大きな公園や川があり、自然が豊かな住宅街です。利便性と落ち着いた住環境のバランスが取れているため、非常に住み心地が良いと感じています。
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 主題四：購物與科技生活 (19-24) ==================== -->
+        <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">【主題四】購物習慣與數位生活（第 19～24 題）</h3>
+
+        <!-- Q19 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">19. 買い物はネットショッピングとお店に行くのと、どちらが多いですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：購物是網購比較多，還是去實體店面比較多？（回答偏好＋原因）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 最近はネットショッピングの方が多いです。24時間いつでも注文できるし、重い荷物も家まで届けてくれるのでとても便利だからです。値段も簡単に比べることができます。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 日用品はネットで買いますが、服や靴などは実際にお店へ行って買うことが多いです。写真だけでは生地の質感やサイズ感が分かりにくいため、試着して納得してから購入したいからです。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q20 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">20. 最近買って「よかった」と思ったものは何ですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：最近買了覺得「太好了（很值得）」的東西是什麼？（物品＋具體好處）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 先月買ったワイヤレスイヤホンです。コードがないので通勤の電車の中でとても使いやすいですし、音もすごくきれいです。毎日使っているので、本当に買ってよかったと思います。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 最近購入したロボット掃除機です。仕事で忙しくても、外出中に自動で床をきれいにしてくれるため、家事の負担が大幅に減りました。おかげで自分の自由な時間が増えて大満足しています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q21 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">21. スマートフォンは一日にどのぐらい使いますか。主に何に使いますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：一天使用智慧型手機多久？主要用來做什麼？（時數＋主要用途）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 一日に3時間から4時間ぐらい使っています。主に友達とラインで連絡を取ったり、ユーチューブで動画を見たりするのに使います。今はスマホがないと生活できないと思います。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 通勤時間や休憩時間を含めると、一日平均4時間ほど使用しています。SNSのチェックやニュースの閲覧に加え、最近はキャッシュレス決済や電車の乗り換え案内など、生活のあらゆる場面で欠かせません。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q22 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">22. SNS（インスタグラムやフェイスブックなど）はよく利用しますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：常使用社群媒體嗎？（使用頻率＋使用方式或看法）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> はい、毎日インスタグラムを見ています。自分で写真を投稿することはあまりありませんが、友達の近況を知ったり、美味しいカフェの情報を探したりするのにとても役に立っています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 情報収集のツールとして毎日利用しています。最新のトレンドやニュースをリアルタイムで把握できる点は非常に便利ですが、見すぎて時間を無駄にしないよう、使用時間には気をつけています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q23 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">23. 現金とキャッシュレス決済（カードやスマホ決済）、どちらをよく使いますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：現金和無現金支付（刷卡或行動支付），比較常使用哪種？（偏好＋優點）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私はスマホ決済をよく使います。財布から小銭を出す必要がなくて支払いがとても速いですし、ポイントもたまるからです。最近はほとんど現金を使わなくなりました。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 圧倒的にキャッシュレス決済が多いです。会計がスムーズなだけでなく、アプリ上で利用履歴が自動的に記録されるため、家計簿代わりにお金の管理がしやすい点も非常に気に入っています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q24 -->
+        <div class="question-card mb-8 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">24. 部屋をきれいに保つために、何か工夫していることはありますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：為了保持房間整潔，有什麼下功夫的地方嗎？（整理習慣＋原則）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 使ったものはすぐに元の場所に戻すようにしています。それから、毎週日曜日の朝に必ず掃除機をかけると決めています。少しの工夫で部屋が散らからなくなりました。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> そもそも物を増やしすぎないことを意識しています。「新しい服を一着買ったら、古い服を一着処分する」というルールを決めることで、収納スペースに余裕ができ、掃除もしやすくなりました。
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 主題五：人際、學習與生活態度 (25-30) ==================== -->
+        <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">【主題五】人際互動、學習與生活習慣（第 25～30 題）</h3>
+
+        <!-- Q25 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">25. あなたは朝型人間ですか、それとも夜型人間ですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：你是早起型的人，還是夜貓子型的人？（類型＋作息理由）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私は完全な夜型人間です。夜になると頭が冴えて、勉強や趣味に集中できるからです。その代わり、朝起きるのはとても苦手で、いつも目覚まし時計を3つかけています。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私は朝型人間です。早朝は電話やメッセージが来ず静かなので、読書や資格の勉強をするのに最適だからです。朝のうちに重要なタスクを片付けると、一日を有意義に過ごせる気がします。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q26 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">26. 日本語の勉強はどのようにしていますか。楽しいですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：你是如何學習日文的？覺得開心嗎？（學習方法＋感受）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 日本のドラマを見たり、ユーチューブで日本人の会話を聞いたりして勉強しています。最初は聞き取るのが難しかったですが、少しずつ分かるようになってきて、今はとても楽しいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 通勤中に日本のポッドキャストを聴いてシャドーイングをしたり、オンライン英会話ならぬ日本語会話で実践練習をしたりしています。自分の言葉が通じた時の喜びが大きいので、楽しく続けられています。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q27 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">27. 友達と会う時、普段どんな場所へ行くことが多いですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：和朋友見面時，平常多半去什麼地方？（地點＋做的事情）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> よくカフェやファミレスへ行くことが多いです。美味しい飲み物やデザートを食べながら、何時間もおしゃべりするのが楽しいからです。時々、一緒に映画を見に行くこともあります。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 仕事帰りに居酒屋で軽く食事をしながら近況を報告し合うことが多いですね。休日であれば、話題のレストランを予約してランチを楽しんだり、公園を散策したりして過ごします。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q28 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">28. あなたは自分の性格を一言で言うと、どんな性格だと思いますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：用一句話形容自己的個性，你覺得是什麼個性？（性格特質＋具體表現）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 私はとてもポジティブな性格だと思います。何か失敗をしても、あまり長く落ち込まずに「次は頑張ろう」と切り替えることができるからです。友達からもよく明るいと言われます。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 私は何事にも慎重で真面目な性格だと思います。新しいことを始める前には必ず下調べをして準備を整えるため、大きな失敗が少ない反面、少し心配性なところがあるとも言えます。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q29 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">29. ペットを飼っていますか。または、飼ってみたい動物はいますか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：有養寵物嗎？或者有想養的動物嗎？（現況＋理由或夢想中的寵物）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> 今は飼っていませんが、将来は犬を飼ってみたいです。特に柴犬がとても可愛くて大好きです。毎日一緒に散歩に行ったり、家で遊んだりしたら、きっとすごく癒やされると思います。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 実家で猫を二匹飼っています。マイペースで気ままな性格ですが、仕事で疲れて帰宅した時にすり寄ってきてくれると、一日の疲れが一気に吹き飛ぶほど可愛くて大切な家族の一員です。
+                </div>
+            </div>
+        </div>
+
+        <!-- Q30 -->
+        <div class="question-card mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+            <h4 class="text-lg font-bold text-gray-800 mb-1">30. もし一週間、自由な休みがあったら何をしたいですか。</h4>
+            <p class="text-xs md:text-sm text-gray-500 mb-3 italic">問題重點：如果有一週的自由假期，你想做什麼？（假設性願望＋具體計畫）</p>
+            <div class="space-y-3">
+                <div class="p-3 bg-emerald-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b1">B1</span> もし一週間の休みがあったら、ぜひ海外旅行に行きたいです。特にヨーロッパへ行って、美しい建物を見たり、現地の美味しい料理を食べたりして、普段できない経験をしたいです。
+                </div>
+                <div class="p-3 bg-amber-50 rounded-lg text-gray-800 leading-relaxed">
+                    <span class="level-badge badge-b2">B2</span> 一週間もまとまった休みがあるなら、温泉地でのんびり過ごしたいです。スマホやパソコンから離れてデジタルデトックスをし、美味しい懐石料理と温泉を満喫して心身をリフレッシュさせたいです。
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
